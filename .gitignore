@@ -1,0 +1,35 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+.classpath
+.project
+.settings/
+bin/
+.c9/
+*.launch
+.scale-managed.properties
+
+# idea
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# vscode
+.vscode/
+*.code-workspace
+
+# macos
+*.DS_Store
+
+# misc
+*.log
+*.swp
+*.swo
+*~
+.DS_Store

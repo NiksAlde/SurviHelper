@@ -1,0 +1,29 @@
+modLoader="javafxmod"
+loaderVersion="[52,)"
+license="MIT"
+logo="assets/survivhelper/icon.png"
+authors="NiksAlde"
+description="""SurviHelper - A Minecraft mod to help you survive and thrive!
+Provides essential utilities and quality-of-life features for survival gameplay."""
+
+[[mods]]
+modId="survivhelper"
+version="${version}"
+displayName="SurviHelper"
+logoFile="assets/survivhelper/icon.png"
+description="""A Minecraft mod to help you survive and thrive!
+Provides essential utilities and quality-of-life features for survival gameplay."""
+
+[[dependencies.survivhelper]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.survivhelper]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
